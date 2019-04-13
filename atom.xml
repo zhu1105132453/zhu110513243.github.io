@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-13T06:24:59.926Z</updated>
+  <updated>2019-04-13T07:50:56.245Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,27 +17,40 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>test</title>
-    <link href="http://yoursite.com/2019/04/13/test/"/>
-    <id>http://yoursite.com/2019/04/13/test/</id>
-    <published>2019-04-13T06:01:21.000Z</published>
-    <updated>2019-04-13T06:24:59.926Z</updated>
+    <title>盲人守护</title>
+    <link href="http://yoursite.com/2019/04/13/icustoy/"/>
+    <id>http://yoursite.com/2019/04/13/icustoy/</id>
+    <published>2019-04-13T07:13:27.000Z</published>
+    <updated>2019-04-13T07:50:56.245Z</updated>
     
     <summary type="html">
     
+      
+      
+        
+        
+          &lt;p&gt;盲人守护是一款搭配盲人眼镜、针对于用户家属可以实时掌握盲人动向的监控型社交软件，其主要目的在于加强盲人或低视力群体与其家属之间的联系，并通过盲人社区分享照顾盲人的心得、低视力群体康复的过程。以下是各个功能模块的大致展示：&lt;/p&gt;
+&lt;h2 id=&quot;登录注册&quot;&gt;&lt;a
+        
+      
+    
     </summary>
     
+      <category term="盲人眼镜" scheme="http://yoursite.com/categories/%E7%9B%B2%E4%BA%BA%E7%9C%BC%E9%95%9C/"/>
     
-      <category term="tags" scheme="http://yoursite.com/tags/tags/"/>
+    
+      <category term="毕设" scheme="http://yoursite.com/tags/%E6%AF%95%E8%AE%BE/"/>
+    
+      <category term="盲人眼镜" scheme="http://yoursite.com/tags/%E7%9B%B2%E4%BA%BA%E7%9C%BC%E9%95%9C/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
+    <title>开启编程之旅</title>
     <link href="http://yoursite.com/2019/04/13/hello-world/"/>
     <id>http://yoursite.com/2019/04/13/hello-world/</id>
     <published>2019-04-13T01:09:54.269Z</published>
-    <updated>2019-04-13T01:09:54.269Z</updated>
+    <updated>2019-04-13T07:16:42.092Z</updated>
     
     <summary type="html">
     
@@ -45,12 +58,18 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          &lt;h3 id=&quot;新建一篇文章&quot;&gt;&lt;a href=&quot;#新建一篇文章&quot; class=&quot;headerlink&quot; title=&quot;新建一篇文章&quot;&gt;&lt;/a&gt;新建一篇文章&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
         
       
     
     </summary>
     
+      <category term="开启编程之旅" scheme="http://yoursite.com/categories/%E5%BC%80%E5%90%AF%E7%BC%96%E7%A8%8B%E4%B9%8B%E6%97%85/"/>
+    
+    
+      <category term="Hexo" scheme="http://yoursite.com/tags/Hexo/"/>
+    
+      <category term="NexT" scheme="http://yoursite.com/tags/NexT/"/>
     
   </entry>
   
