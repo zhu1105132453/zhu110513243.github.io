@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-13T07:50:56.245Z</updated>
+  <updated>2019-04-16T07:39:31.244Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JAVA回调机制</title>
+    <link href="http://yoursite.com/2019/04/16/callback/"/>
+    <id>http://yoursite.com/2019/04/16/callback/</id>
+    <published>2019-04-16T06:07:31.000Z</published>
+    <updated>2019-04-16T07:39:31.244Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Class A实现接口CallBack callback ——&lt;strong&gt;背景1&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Class A中包含一个Class
+        
+      
+    
+    </summary>
+    
+      <category term="开启编程之旅" scheme="http://yoursite.com/categories/%E5%BC%80%E5%90%AF%E7%BC%96%E7%A8%8B%E4%B9%8B%E6%97%85/"/>
+    
+    
+      <category term="Java" scheme="http://yoursite.com/tags/Java/"/>
+    
+  </entry>
   
   <entry>
     <title>盲人守护</title>
