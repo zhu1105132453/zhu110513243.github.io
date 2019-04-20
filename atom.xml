@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-20T08:54:59.321Z</updated>
+  <updated>2019-04-20T09:03:04.988Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>线性回归</title>
     <link href="http://yoursite.com/2019/04/20/SoftMax/"/>
     <id>http://yoursite.com/2019/04/20/SoftMax/</id>
-    <published>2019-04-20T07:48:04.623Z</published>
-    <updated>2019-04-20T08:54:59.321Z</updated>
+    <published>2019-04-20T07:48:04.000Z</published>
+    <updated>2019-04-20T09:03:04.988Z</updated>
     
     <summary type="html">
     
@@ -29,12 +29,18 @@
       
         
         
-          &lt;p&gt;title: 线性回归&lt;br&gt;date: 2019-04-20 15:48:04&lt;br&gt;tags: [TensorFlow,python]&lt;br&gt;categories:
+          &lt;p&gt;人们早就知晓，相比凉爽的天气，蟋蟀在较为炎热的天气里鸣叫更为频繁。数十年来，专业和业余昆虫学者已将每分钟的鸣叫声和温度方面的数据编入目录。Ruth
         
       
     
     </summary>
     
+      <category term="机器学习" scheme="http://yoursite.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="TensorFlow" scheme="http://yoursite.com/tags/TensorFlow/"/>
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
     
   </entry>
   
