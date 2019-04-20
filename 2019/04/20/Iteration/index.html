@@ -96,13 +96,20 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="洛水天河">
-<meta property="og:url" content="http://yoursite.com/tags/毕设/index.html">
+  <meta name="description" content="为了训练模型，我们需要一种可降低模型损失的方法，迭代方法（梯度下降算法）是一种广泛应用于降低损失的方法，而且使用起来简单有效。 迭代学习可能会让您想到“猜数字”这种游戏。在我们的游戏中，“要猜中的数字56（假设从0-100）”就是最佳模型。刚开始，您会胡乱猜测（“w_1 的值为 0。”），等待系统告诉您损失是多少，即是小了还是大了。然后，您再尝试另一种猜测（“w_1的值为 5。”），看看损失是多少">
+<meta name="keywords" content="TensorFlow,python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="降低损失：迭代方法">
+<meta property="og:url" content="http://yoursite.com/2019/04/20/Iteration/index.html">
 <meta property="og:site_name" content="洛水天河">
+<meta property="og:description" content="为了训练模型，我们需要一种可降低模型损失的方法，迭代方法（梯度下降算法）是一种广泛应用于降低损失的方法，而且使用起来简单有效。 迭代学习可能会让您想到“猜数字”这种游戏。在我们的游戏中，“要猜中的数字56（假设从0-100）”就是最佳模型。刚开始，您会胡乱猜测（“w_1 的值为 0。”），等待系统告诉您损失是多少，即是小了还是大了。然后，您再尝试另一种猜测（“w_1的值为 5。”），看看损失是多少">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://yoursite.com/2019/04/20/Iteration/1555745478721.png">
+<meta property="og:updated_time" content="2019-04-20T07:50:14.976Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="洛水天河">
+<meta name="twitter:title" content="降低损失：迭代方法">
+<meta name="twitter:description" content="为了训练模型，我们需要一种可降低模型损失的方法，迭代方法（梯度下降算法）是一种广泛应用于降低损失的方法，而且使用起来简单有效。 迭代学习可能会让您想到“猜数字”这种游戏。在我们的游戏中，“要猜中的数字56（假设从0-100）”就是最佳模型。刚开始，您会胡乱猜测（“w_1 的值为 0。”），等待系统告诉您损失是多少，即是小了还是大了。然后，您再尝试另一种猜测（“w_1的值为 5。”），看看损失是多少">
+<meta name="twitter:image" content="http://yoursite.com/2019/04/20/Iteration/1555745478721.png">
 
 
 
@@ -112,7 +119,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/tags/毕设/">
+  <link rel="canonical" href="http://yoursite.com/2019/04/20/Iteration/">
 
 
 
@@ -122,7 +129,7 @@
   };
 </script>
 
-  <title>标签: 毕设 | 洛水天河</title>
+  <title>降低损失：迭代方法 | 洛水天河</title>
   
 
 
@@ -170,7 +177,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -242,7 +249,7 @@
         
         
           
-          <li class="menu-item menu-item-标签 menu-item-active">
+          <li class="menu-item menu-item-标签">
 
     
     
@@ -325,83 +332,219 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>毕设<small>标签</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
+
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/20/Iteration/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="朱俊杰">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/head.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="洛水天河">
+    </span>
+
+    
+      <header class="post-header">
+
         
-          <a class="post-title-link" href="/2019/04/13/icustoy/" itemprop="url">
-            
-              <span itemprop="name">盲人守护</span>
-            
-          </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">降低损失：迭代方法
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-04-13T15:13:27+08:00" content="2019-04-13">
-          04-13
-        </time>
-      </div>
+              
+            
+          </h1>
+        
 
-    </header>
-  </article>
+        <div class="post-meta">
+          <span class="post-time">
 
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-04-20 15:30:27 / 修改时间：15:50:14" itemprop="dateCreated datePublished" datetime="2019-04-20T15:30:27+08:00">2019-04-20</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/机器学习/" itemprop="url" rel="index"><span itemprop="name">机器学习</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>为了训练模型，我们需要一种可降低模型损失的方法，迭代方法（梯度下降算法）是一种广泛应用于降低损失的方法，而且使用起来简单有效。</p>
+<p>迭代学习可能会让您想到“猜数字”这种游戏。在我们的游戏中，“要猜中的数字56（假设从0-100）”就是最佳模型。刚开始，您会胡乱猜测（“w_1 的值为 0。”），等待系统告诉您损失是多少，即是小了还是大了。然后，您再尝试另一种猜测（“w_1的值为 5。”），看看损失是多少。哎呀，这次更接近目标了。实际上，如果您以正确方式玩这个游戏，通常会越来越接近目标。这个游戏真正棘手的地方在于尽可能高效地找到最佳模型。</p>
+<p>  <img src="/2019/04/20/Iteration/1555745478721.png" alt="1555745478721"></p>
+<h3 id="用于训练模型的迭代法："><a href="#用于训练模型的迭代法：" class="headerlink" title="用于训练模型的迭代法："></a>用于训练模型的迭代法：</h3><p>我们将在整个机器学习速成课程中使用相同的迭代方法详细说明各种复杂情况，尤其是处于暴风雨中的蓝云区域。迭代策略在机器学习中的应用非常普遍，这主要是因为它们可以很好地扩展到大型数据集。</p>
+<p>“模型”部分将一个或多个特征作为输入，然后返回一个预测 (y’) 作为输出。为了进行简化，不妨考虑一种采用一个特征并返回一个预测的模型：<br>$$<br>y’ = b + w_1x_1<br>$$</p>
+<p>我们应该为 b 和 w_1 设置哪些初始值？对于线性回归问题，事实证明初始值并不重要。我们可以随机选择值，不过我们还是选择采用以下这些无关紧要的值：</p>
+<ul>
+<li>b = 0</li>
+<li>w_1 = 0</li>
+</ul>
+<p>假设第一个特征值是 10。将该特征值代入预测函数会得到以下结果：</p>
+<figure class="highlight matlab"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">y' = <span class="number">0</span> + <span class="number">0</span>(<span class="number">10</span>)</span><br><span class="line">y' = <span class="number">0</span></span><br></pre></td></tr></table></figure>
+<p>图中的“计算损失”部分是模型将要使用的<a href="https://zhu1105132453.github.io/2019/04/20/Loss_function/#more" target="_blank" rel="noopener">损失函数</a>。假设我们使用平方损失函数。损失函数将采用两个输入值：</p>
+<ul>
+<li>y’：模型对特征 x 的预测</li>
+<li>y：特征 x 对应的正确标签。</li>
+</ul>
+<p>最后，我们来看图的“计算参数更新”部分。机器学习系统就是在此部分检查损失函数的值，并为 b 和 w_1 生成新值。现在，假设这个神秘的绿色框会产生新值，然后机器学习系统将根据所有标签重新评估所有特征，为损失函数生成一个新值，而该值又产生新的参数值。这种学习过程会持续迭代，直到该算法发现损失可能最低的模型参数。通常，您可以不断迭代，直到总体损失不再变化或至少变化极其缓慢为止。这时候，我们可以说该模型已<strong>收敛</strong>。</p>
 
       
     </div>
 
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/TensorFlow/" rel="tag"># TensorFlow</a>
+          
+            <a href="/tags/python/" rel="tag"># python</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/04/20/Gradient/" rel="next" title="降低损失 (Reducing Loss)：梯度下降法">
+                <i class="fa fa-chevron-left"></i> 降低损失 (Reducing Loss)：梯度下降法
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/04/20/Loss-function/" rel="prev" title="损失函数">
+                损失函数 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -421,8 +564,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -557,6 +709,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#用于训练模型的迭代法："><span class="nav-text">用于训练模型的迭代法：</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -714,6 +883,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.1.0"></script>
+<script src="/js/post-details.js?v=7.1.0"></script>
+
+
 
   
 
@@ -729,6 +902,8 @@
 
   
 
+
+  
 
 
   

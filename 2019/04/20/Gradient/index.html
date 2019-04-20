@@ -96,13 +96,23 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="洛水天河">
-<meta property="og:url" content="http://yoursite.com/tags/毕设/index.html">
+  <meta name="description" content="迭代方法图包含一个标题为“计算参数更新”的华而不实的绿框。现在，我们将用更实质的方法代替这种华而不实的算法。 假设我们有时间和计算资源来计算$w_1$的所有可能值的损失。对于我们一直在研究的回归问题，所产生的损失与\(w_1\)的图形始终是凸形。换言之，图形始终是碗状图，如下所示：  凸形问题只有一个最低点；即只存在一个斜率正好为 0 的位置。这个最小值就是损失函数收敛之处。 通过计算整个数据集中">
+<meta name="keywords" content="TensorFlow,python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="降低损失 (Reducing Loss)：梯度下降法">
+<meta property="og:url" content="http://yoursite.com/2019/04/20/Gradient/index.html">
 <meta property="og:site_name" content="洛水天河">
+<meta property="og:description" content="迭代方法图包含一个标题为“计算参数更新”的华而不实的绿框。现在，我们将用更实质的方法代替这种华而不实的算法。 假设我们有时间和计算资源来计算$w_1$的所有可能值的损失。对于我们一直在研究的回归问题，所产生的损失与\(w_1\)的图形始终是凸形。换言之，图形始终是碗状图，如下所示：  凸形问题只有一个最低点；即只存在一个斜率正好为 0 的位置。这个最小值就是损失函数收敛之处。 通过计算整个数据集中">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="http://yoursite.com/2019/04/20/Gradient/1555750610473.png">
+<meta property="og:image" content="http://yoursite.com/2019/04/20/Gradient/1555750658168.png">
+<meta property="og:image" content="http://yoursite.com/2019/04/20/Gradient/1555750703761.png">
+<meta property="og:image" content="http://yoursite.com/2019/04/20/Gradient/1555750726240.png">
+<meta property="og:updated_time" content="2019-04-20T08:59:05.445Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="洛水天河">
+<meta name="twitter:title" content="降低损失 (Reducing Loss)：梯度下降法">
+<meta name="twitter:description" content="迭代方法图包含一个标题为“计算参数更新”的华而不实的绿框。现在，我们将用更实质的方法代替这种华而不实的算法。 假设我们有时间和计算资源来计算$w_1$的所有可能值的损失。对于我们一直在研究的回归问题，所产生的损失与\(w_1\)的图形始终是凸形。换言之，图形始终是碗状图，如下所示：  凸形问题只有一个最低点；即只存在一个斜率正好为 0 的位置。这个最小值就是损失函数收敛之处。 通过计算整个数据集中">
+<meta name="twitter:image" content="http://yoursite.com/2019/04/20/Gradient/1555750610473.png">
 
 
 
@@ -112,7 +122,7 @@
 
   
   
-  <link rel="canonical" href="http://yoursite.com/tags/毕设/">
+  <link rel="canonical" href="http://yoursite.com/2019/04/20/Gradient/">
 
 
 
@@ -122,7 +132,7 @@
   };
 </script>
 
-  <title>标签: 毕设 | 洛水天河</title>
+  <title>降低损失 (Reducing Loss)：梯度下降法 | 洛水天河</title>
   
 
 
@@ -170,7 +180,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -242,7 +252,7 @@
         
         
           
-          <li class="menu-item menu-item-标签 menu-item-active">
+          <li class="menu-item menu-item-标签">
 
     
     
@@ -325,83 +335,219 @@
           
             
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
           
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>毕设<small>标签</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
+
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/20/Gradient/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="朱俊杰">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/head.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="洛水天河">
+    </span>
+
+    
+      <header class="post-header">
+
         
-          <a class="post-title-link" href="/2019/04/13/icustoy/" itemprop="url">
-            
-              <span itemprop="name">盲人守护</span>
-            
-          </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">降低损失 (Reducing Loss)：梯度下降法
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated" datetime="2019-04-13T15:13:27+08:00" content="2019-04-13">
-          04-13
-        </time>
-      </div>
+              
+            
+          </h1>
+        
 
-    </header>
-  </article>
+        <div class="post-meta">
+          <span class="post-time">
 
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-04-20 15:16:27 / 修改时间：16:59:05" itemprop="dateCreated datePublished" datetime="2019-04-20T15:16:27+08:00">2019-04-20</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/机器学习/" itemprop="url" rel="index"><span itemprop="name">机器学习</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>迭代方法图包含一个标题为“计算参数更新”的华而不实的绿框。现在，我们将用更实质的方法代替这种华而不实的算法。</p>
+<p>假设我们有时间和计算资源来计算$w_1$的所有可能值的损失。对于我们一直在研究的回归问题，所产生的损失与\(w_1\)的图形始终是凸形。换言之，图形始终是碗状图，如下所示：</p>
+<p><img src="/2019/04/20/Gradient/1555750610473.png" alt="1555750610473"></p>
+<p>凸形问题只有一个最低点；即只存在一个斜率正好为 0 的位置。这个最小值就是损失函数收敛之处。</p>
+<p>通过计算整个数据集中$ w_1 $每个可能值的损失函数来找到收敛点这种方法效率太低。我们来研究一种更好的机制，这种机制在机器学习领域非常热门，称为<strong>梯度下降法</strong>。</p>
+<p>梯度下降法的第一个阶段是为$ w_1$ 选择一个起始值（起点）。起点并不重要；因此很多算法就直接将$ w_1 $设为 0 或随机选择一个值。下图显示的是我们选择了一个稍大于 0 的起点：</p>
+<p><img src="/2019/04/20/Gradient/1555750658168.png" alt="1555750658168"></p>
+<p>然后，梯度下降法算法会计算损失曲线在起点处的梯度。简而言之，<strong>梯度</strong>是偏导数的矢量；它可以让您了解哪个方向距离目标“更近”或“更远”。请注意，损失相对于单个权重的梯度就等于导数。</p>
+<p>请注意，梯度是一个矢量，因此具有以下两个特征：</p>
+<ul>
+<li>方向</li>
+<li>大小</li>
+</ul>
+<p>梯度始终指向损失函数中增长最为迅猛的方向。梯度下降法算法会沿着负梯度的方向走一步，以便尽快降低损失。</p>
+<p><img src="/2019/04/20/Gradient/1555750703761.png" alt="1555750703761"></p>
+<p>为了确定损失函数曲线上的下一个点，梯度下降法算法会将梯度大小的一部分与起点相加，如下图所示：</p>
+<p><img src="/2019/04/20/Gradient/1555750726240.png" alt="1555750726240"></p>
+<p>然后，梯度下降法会重复此过程，逐渐接近最低点。</p>
 
       
     </div>
 
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/TensorFlow/" rel="tag"># TensorFlow</a>
+          
+            <a href="/tags/python/" rel="tag"># python</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/04/20/MobileNets/" rel="next" title="MobileNets">
+                <i class="fa fa-chevron-left"></i> MobileNets
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/04/20/Iteration/" rel="prev" title="降低损失：迭代方法">
+                降低损失：迭代方法 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -714,6 +860,10 @@
 
 
   
+  <script src="/js/scrollspy.js?v=7.1.0"></script>
+<script src="/js/post-details.js?v=7.1.0"></script>
+
+
 
   
 
@@ -729,6 +879,8 @@
 
   
 
+
+  
 
 
   

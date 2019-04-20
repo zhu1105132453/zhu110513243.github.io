@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-16T07:39:31.244Z</updated>
+  <updated>2019-04-20T08:54:59.321Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,134 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2019/04/20/SoftMax/"/>
+    <id>http://yoursite.com/2019/04/20/SoftMax/</id>
+    <published>2019-04-20T07:48:04.623Z</published>
+    <updated>2019-04-20T08:54:59.321Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;title: 线性回归&lt;br&gt;date: 2019-04-20 15:48:04&lt;br&gt;tags: [TensorFlow,python]&lt;br&gt;categories:
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>损失函数</title>
+    <link href="http://yoursite.com/2019/04/20/Loss-function/"/>
+    <id>http://yoursite.com/2019/04/20/Loss-function/</id>
+    <published>2019-04-20T07:47:50.000Z</published>
+    <updated>2019-04-20T07:56:19.437Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;简单来说，&lt;strong&gt;训练&lt;/strong&gt;模型表示通过有标签样本来学习（确定）所有权重和偏差的理想值。在监督式学习中，机器学习算法通过以下方式构建模型：检查多个样本并尝试找出可最大限度地减少损失的模型；这一过程称为&lt;strong&gt;经验风险最小化&lt;/strong&gt;。&lt;/
+        
+      
+    
+    </summary>
+    
+      <category term="机器学习" scheme="http://yoursite.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="TensorFlow" scheme="http://yoursite.com/tags/TensorFlow/"/>
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>降低损失：迭代方法</title>
+    <link href="http://yoursite.com/2019/04/20/Iteration/"/>
+    <id>http://yoursite.com/2019/04/20/Iteration/</id>
+    <published>2019-04-20T07:30:27.000Z</published>
+    <updated>2019-04-20T07:50:14.976Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;为了训练模型，我们需要一种可降低模型损失的方法，迭代方法（梯度下降算法）是一种广泛应用于降低损失的方法，而且使用起来简单有效。&lt;/p&gt;
+&lt;p&gt;迭代学习可能会让您想到“猜数字”这种游戏。在我们的游戏中，“要猜中的数字56（假设从0-100）”就是最佳模型。刚开始，您会胡乱猜测
+        
+      
+    
+    </summary>
+    
+      <category term="机器学习" scheme="http://yoursite.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="TensorFlow" scheme="http://yoursite.com/tags/TensorFlow/"/>
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>降低损失 (Reducing Loss)：梯度下降法</title>
+    <link href="http://yoursite.com/2019/04/20/Gradient/"/>
+    <id>http://yoursite.com/2019/04/20/Gradient/</id>
+    <published>2019-04-20T07:16:27.000Z</published>
+    <updated>2019-04-20T08:59:05.445Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;迭代方法图包含一个标题为“计算参数更新”的华而不实的绿框。现在，我们将用更实质的方法代替这种华而不实的算法。&lt;/p&gt;
+&lt;p&gt;假设我们有时间和计算资源来计算$w_1$的所有可能值的损失。对于我们一直在研究的回归问题，所产生的损失与\(w_1\)的图形始终是凸形。换言之，图形始
+        
+      
+    
+    </summary>
+    
+      <category term="机器学习" scheme="http://yoursite.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="TensorFlow" scheme="http://yoursite.com/tags/TensorFlow/"/>
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MobileNets</title>
+    <link href="http://yoursite.com/2019/04/20/MobileNets/"/>
+    <id>http://yoursite.com/2019/04/20/MobileNets/</id>
+    <published>2019-04-20T03:02:58.000Z</published>
+    <updated>2019-04-20T03:04:42.172Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="图像识别" scheme="http://yoursite.com/categories/%E5%9B%BE%E5%83%8F%E8%AF%86%E5%88%AB/"/>
+    
+    
+      <category term="TensorFlow" scheme="http://yoursite.com/tags/TensorFlow/"/>
+    
+      <category term="模型" scheme="http://yoursite.com/tags/%E6%A8%A1%E5%9E%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>JAVA回调机制</title>
