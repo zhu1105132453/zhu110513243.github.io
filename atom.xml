@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-04-20T09:03:04.988Z</updated>
+  <updated>2019-04-22T00:27:22.907Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,39 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>学习速率</title>
+    <link href="http://yoursite.com/2019/04/22/study-rate/"/>
+    <id>http://yoursite.com/2019/04/22/study-rate/</id>
+    <published>2019-04-22T00:21:47.000Z</published>
+    <updated>2019-04-22T00:27:22.907Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;正如之前所述，梯度矢量具有方向和大小。梯度下降法算法用梯度乘以一个称为&lt;strong&gt;学习速率&lt;/strong&gt;（有时也称为&lt;strong&gt;步长&lt;/strong&gt;）的标量，以确定下一个点的位置。例如，如果梯度大小为 2.5，学习速率为
+        
+      
+    
+    </summary>
+    
+      <category term="机器学习" scheme="http://yoursite.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="TensorFlow" scheme="http://yoursite.com/tags/TensorFlow/"/>
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>线性回归</title>
     <link href="http://yoursite.com/2019/04/20/SoftMax/"/>
     <id>http://yoursite.com/2019/04/20/SoftMax/</id>
     <published>2019-04-20T07:48:04.000Z</published>
-    <updated>2019-04-20T09:03:04.988Z</updated>
+    <updated>2019-04-22T00:27:38.949Z</updated>
     
     <summary type="html">
     
